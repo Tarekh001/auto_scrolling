@@ -1,0 +1,23 @@
+{
+  "camera_index": 0,
+  "frame_width": 640,
+  "frame_height": 480,
+  "active_profile": "desktop_universal",
+  "swipe_threshold_y": 0.12,
+  "swipe_max_duration_sec": 0.45,
+  "swipe_max_dx": 0.25,
+  "ok_pinch_ratio": 0.34,
+  "hold_frames_required": 5,
+  "static_cooldown_sec": 1.2,
+  "swipe_cooldown_sec": 0.6,
+  "video_center_xy": [
+    924,
+    542
+  ],
+  "comment_button_xy": [
+    1386,
+    751
+  ],
+  "scroll_amount": 600,
+  "always_on_top": true
+}

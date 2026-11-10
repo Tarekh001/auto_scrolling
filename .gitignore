@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+
+# Linters, Formatters & Type Checkers
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Pretrained Models & Model Binaries (diunduh otomatis oleh runtime ke models/)
+models/*.task
+models/*.tflite
+models/*.onnx
+models/*.bin
+!models/.gitkeep
+
+# Editor & IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & Local Secrets (jika nanti ada file .env)
+.env
+.env.*
+!.env.example
+
+# OS generated files
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Logs & Temporary Media / Debug Recordings
+*.log
+debug/
+recordings/
+*.mp4
+*.avi
